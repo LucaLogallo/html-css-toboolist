@@ -33,6 +33,9 @@ body{
 main{
   margin-top: 50px;
 }
+section{
+  margin-bottom: 20px;
+}
 .container{
   width: 70%;
   padding-top: 20px;
@@ -75,12 +78,11 @@ ul{
 }
 
 .circle{
-  display: inline-block;
+  border-radius: 50%;
   width: 20px;
   height: 20px;
-  border-radius: 50%;
+  display: inline-block;
   text-align: center;
-
 }
 
 .green{
@@ -125,4 +127,12 @@ ul{
 
 .mobile{
   background-color: #f29e33;
+}
+
+.website{
+  background-color: #d863a1;
+}
+
+.sales{
+  background-color: #b0c926;
 }
